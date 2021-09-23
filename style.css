@@ -682,7 +682,10 @@ p {
 
 .ac-text {
     font-size: 24px;
-    text-align: center;
+    text-align: center; 
+}
+
+.ac-text.centri {
     margin-left: 17%;
     margin-right: 17%;
 }
