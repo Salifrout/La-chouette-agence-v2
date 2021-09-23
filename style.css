@@ -680,6 +680,13 @@ p {
     font-size: 11px;
 }
 
+.ac-text {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -775,7 +782,11 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
+    color: #F3976C!important;
+}
+
+.tc-black {
+    color: black;
 }
 
 .btn-atomic-tangerine {
