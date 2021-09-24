@@ -45,8 +45,6 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
 						<a href="page2.html">Contact</a>
 					</li>
 				</ul>
@@ -84,24 +82,26 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
+						<p id="correct-sentence">L'adresse email est valide.</p>
+						<p id="false-sentence">Pour vous répondre, nous aurons besoin de votre adresse email. Veuillez renseigner une adresse email valide.</p>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control legend-project" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer

@@ -676,6 +676,14 @@ a {
     margin: auto auto auto auto;
 }
 
+ul:nth-child(1) {
+    margin-right: 30px;
+}
+
+ul:nth-child(2) {
+    margin-right: 70px;
+} 
+
 p {
     font-size: 11px;
 }
@@ -701,6 +709,42 @@ p {
 
 .bc-author {
     font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    width: 30%;
+    height: 25px;
+}
+
+.form-control:valid {
+    border: 2px solid green;
+}
+
+.form-control:not(:focus):invalid {
+    border: 2px solid red;
+}
+
+#correct-sentence, #false-sentence {
+    display: none;
+}
+
+.form-control:valid + #correct-sentence {
+    display: inline;
+}
+
+.form-control:not(:focus):invalid + #false-sentence {
+    display: inline;
+}
+
+.legend-project {
+    width: 80%;
+    height: 280px;
+    overflow: scroll;
+    padding: 1% 4% 2% 1%;
 }
 
 .tight-width-whitespace {
