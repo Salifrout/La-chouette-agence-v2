@@ -322,6 +322,14 @@ a:hover {
     z-index: 1;
 }
 
+#menu_page2 {
+    margin-right: 8%;
+}
+
+#menu_page2:nth-child(1) {
+    margin-right: 2%;
+}
+
 .nav > li {
     float: left;
     margin-top: 4px;
