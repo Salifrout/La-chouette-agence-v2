@@ -685,7 +685,7 @@ ul:nth-child(2) {
 } 
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .ac-text {
@@ -699,7 +699,7 @@ p {
 }
 
 .ac-description {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .bc-sensi {
@@ -712,12 +712,23 @@ p {
 }
 
 .form-group {
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .form-control {
     width: 30%;
     height: 25px;
+    display: flex;
+}
+
+.form-sentence {
+    margin-top: 1px;
+    font-weight: bold;
+    color: maroon;
+}
+
+.form-control:not(:focus) {
+    border: 2px solid #e5e5e5;
 }
 
 .form-control:valid {
@@ -734,10 +745,12 @@ p {
 
 .form-control:valid + #correct-sentence {
     display: inline;
+    color: green;
 }
 
 .form-control:not(:focus):invalid + #false-sentence {
     display: inline;
+    color: red;
 }
 
 .legend-project {
