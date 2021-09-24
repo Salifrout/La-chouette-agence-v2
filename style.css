@@ -735,16 +735,16 @@ p {
     color: maroon;
 }
 
-.form-control:not(:focus) {
-    border: 2px solid #e5e5e5;
-}
-
 .form-control:valid {
     border: 2px solid green;
 }
 
 .form-control:not(:focus):invalid {
     border: 2px solid red;
+}
+
+.form-control:not(:focus) {
+    border: 2px solid #e5e5e5;
 }
 
 #correct-sentence, #false-sentence {
