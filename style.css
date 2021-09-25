@@ -753,9 +753,7 @@ p {
     color: maroon;
 }
 
-.form-control:empty {
-    border: 2px solid #e5e5e5;
-}
+
 
 .form-control:not(:focus):valid {
     border: 2px solid green;
@@ -763,6 +761,10 @@ p {
 
 .form-control:not(:focus):invalid {
     border: 2px solid red;
+}
+
+.form-control:empty {
+    border: 2px solid #e5e5e5;
 }
 
 #correct-sentence, #false-sentence {
