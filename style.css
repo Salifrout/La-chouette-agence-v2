@@ -727,6 +727,10 @@ p {
     font-size: 14px;
 }
 
+.tc-contrasted {
+    color: #FBE8DF;
+}
+
 .bloc-form {
     width: 100%;
 }
