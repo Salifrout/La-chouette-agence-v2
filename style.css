@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+*:focus-visible {
+    outline: 1px dashed orange;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -766,11 +770,11 @@ p {
 .form-sentence {
     margin-top: 1px;
     font-weight: bold;
-    color: maroon;
+    color: #000000;
 }
 
-.size-grow {
-    height: 280px;
+.form-control:empty {
+    border: 2px solid #e5e5e5;
 }
 
 .form-control:not(:empty):valid {
@@ -779,10 +783,6 @@ p {
 
 .form-control:not(:empty):invalid {
     border: 2px solid red;
-}
-
-.form-control:empty {
-    border: 2px solid #e5e5e5;
 }
 
 #correct-sentence, #false-sentence {
@@ -1169,5 +1169,5 @@ h4 {
 }
 
 [id*=speaker] {
-    color: #000000;
+    color: #000000!important;
 }
