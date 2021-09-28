@@ -773,16 +773,16 @@ p {
     color: #000000;
 }
 
-.form-control:empty {
-    border: 2px solid #e5e5e5;
+.form-control:empty, .form-control:focus {
+    border: 1px solid #e5e5e5;
 }
 
 .form-control:valid {
-    border: 2px solid green;
+    border: 1px solid green;
 }
 
 .form-control:invalid {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 #correct-sentence, #false-sentence {
@@ -945,7 +945,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
